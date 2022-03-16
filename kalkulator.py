@@ -1,4 +1,3 @@
-
 import random
 
 tb = []
@@ -7,18 +6,19 @@ a = 1
 lg = 0
 lb = 0
 los = random.randint(1, 100)
+print(los)
+bot = 0
 print("Zgadnij liczbe: ")
 liczba = 0
 
-while liczba != los AND bot != los:
-
+while liczba != los and bot != los:
     if a%2==0:
         print("Kolej bota")
         bot = random.randint(1, 100)
         print(bot)
         tb = tb + [bot]
         lb=lb+1
-
+        
         if bot > los:
             print("Liczba jest za duza")
             print("\n")
