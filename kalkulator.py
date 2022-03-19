@@ -6,7 +6,6 @@ a = 1
 lg = 0
 lb = 0
 los = random.randint(1, 100)
-print(los)
 bot = 0
 print("Zgadnij liczbe: ")
 liczba = 0
